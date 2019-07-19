@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px 27.51px;
+}
+.header-cart_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-cart_container > img:first-child {
+  margin-right: 5px;
+}
+.header > .menu {
+  width: 25px;
+  height: 20px;
+}
+@media (max-height: 700px) {
+  .header-search {
+    width: 100%;
+  }
+}

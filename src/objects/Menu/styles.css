@@ -1,0 +1,16 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-indent: -9999px;
+}
+
+.menu:after,
+.menu:before,
+.menu .center {
+  content: "";
+  left: 0;
+  background-color: var(--color-negative);
+  width: 100%;
+  height: 4px;
+}

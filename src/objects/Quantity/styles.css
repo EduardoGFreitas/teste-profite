@@ -1,0 +1,11 @@
+.header-quantity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  color: var(--color-zero);
+  background-color: var(--color-third);
+  font-size: 10px;
+}
