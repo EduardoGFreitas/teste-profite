@@ -1,0 +1,27 @@
+.products {
+  padding: 20px var(--spacing-small);
+}
+.products-title {
+  font-size: var(--size-medium);
+  color: var(--color-negative);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--spacing-small) 0;
+  position: relative;
+  margin-bottom: var(--spacing-medium);
+}
+.products-title:after {
+  content: "";
+  width: 32.5px;
+  height: 3.5018px;
+  position: absolute;
+
+  bottom: 0;
+  left: 0;
+  background: var(--color-first);
+}
+.product-carousel {
+  display: flex;
+}

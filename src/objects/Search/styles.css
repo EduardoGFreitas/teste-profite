@@ -1,4 +1,8 @@
 .header-search {
+  margin-top: var(--spacing-small);
   border: 0;
+  width: 100%;
+  height: var(--spacing-medium);
   border-bottom: 1px solid var(--color-negative);
+  background: url("../../assets/img/SearchIcon.png") no-repeat center right;
 }

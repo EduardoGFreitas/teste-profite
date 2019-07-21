@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 20px 27.51px;
+  padding: 20px var(--spacing-small);
 }
 .header-cart_container {
   display: flex;
