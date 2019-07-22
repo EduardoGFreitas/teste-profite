@@ -1,7 +1,16 @@
 import React from "react";
 
-// import { Container } from './styles';
+import ImageHero from "../../assets/img/image-hero.png";
 
-const HeroCard = () => <article className="hero-card">teste</article>;
+import "./styles.css";
+
+const HeroCard = () => (
+  <article
+    style={{ backgroundImage: `url(${ImageHero})` }}
+    className="hero-card"
+  >
+    teste
+  </article>
+);
 
 export default HeroCard;

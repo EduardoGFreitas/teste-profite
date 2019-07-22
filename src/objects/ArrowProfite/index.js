@@ -9,7 +9,7 @@ const ArrowProfite = ({
 }) => (
   <a
     href={href}
-    className={`arrow-cubo -${rightOrLeft} ${isActive ? "-active" : ""}`}
+    className={`arrow-profite -${rightOrLeft} ${isActive ? "-active" : ""}`}
   >
     {content}
   </a>

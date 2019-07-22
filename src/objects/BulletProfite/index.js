@@ -4,14 +4,14 @@ import "./styles.css";
 
 const BulletProfite = ({
   href = "#",
-  content = "teste2",
-  isActive = true,
+  content = "",
+  isActive = false,
   onClick
 }) => (
   <a
     onClick={onClick}
     href={href}
-    className={`bullet-cubo ${isActive ? "-active" : ""}`}
+    className={`bullet-profite ${isActive ? "-active" : ""}`}
   >
     {content}
   </a>

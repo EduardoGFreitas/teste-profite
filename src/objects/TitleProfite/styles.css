@@ -1,0 +1,20 @@
+.title-carousel {
+  font-size: var(--size-medium);
+  color: var(--color-zero);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--spacing-small) 0;
+  position: relative;
+}
+.title-carousel::after {
+  content: "";
+  width: 32.5px;
+  height: 3.5018px;
+  position: absolute;
+
+  bottom: 0;
+  left: 0;
+  background: var(--color-first);
+}

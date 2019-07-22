@@ -1,0 +1,12 @@
+.hero-card {
+  background-image: url("");
+  background-color: var(--color-third);
+  background-blend-mode: multiply;
+  background-size: cover;
+  height: 191.2px;
+}
+@media (min-width: 600px) {
+  .hero-card {
+    height: 600px;
+  }
+}

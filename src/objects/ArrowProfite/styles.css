@@ -2,7 +2,7 @@
   width: 24px;
   height: 24px;
   display: none;
-  border: 4px var(--color-fifth) solid;
+  border: 4px var(--color-zero) solid;
   border-bottom-color: transparent;
   border-left-color: transparent;
   transform: rotate(45deg);
@@ -11,8 +11,8 @@
 }
 
 .arrow-profite:hover {
-  border-top-color: var(--color-first);
-  border-right-color: var(--color-first);
+  border-top-color: var(--color-zero);
+  border-right-color: var(--color-zero);
 }
 
 .arrow-profite.-active {
