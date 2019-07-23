@@ -6,7 +6,7 @@ import "./styles.css";
 
 const HeroCard = () => (
   <article
-    style={{ backgroundImage: `url(${ImageHero})` }}
+    style={{ background: `url(${ImageHero}) no-repeat` }}
     className="hero-card"
   >
     teste

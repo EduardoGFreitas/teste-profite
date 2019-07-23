@@ -23,7 +23,12 @@
 @media (min-width: 600px) {
   .carousel-hero,
   .carousel-hero .image {
-    height: 600px;
+    height: 600px !important;
+  }
+  .carousel-hero .image {
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: cover !important;
   }
 }
 

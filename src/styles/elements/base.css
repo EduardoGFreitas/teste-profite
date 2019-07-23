@@ -16,4 +16,5 @@ body {
   -webkit-font-smoothing: antialiased !important;
   color: var(--color-negative);
   font-family: "Ubuntu", sans-serif;
+  overflow-x: hidden;
 }
